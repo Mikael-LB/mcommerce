@@ -1,8 +1,9 @@
-package com.clientui.clientui.beans;
+package com.mpaiement.beans;
 
 import java.util.Date;
 
 public class CommandeBean {
+
     private int id;
 
     private Integer productId;
@@ -58,7 +59,7 @@ public class CommandeBean {
 
     @Override
     public String toString() {
-        return "CommandBean{" +
+        return "CommandeBean{" +
                 "id=" + id +
                 ", productId=" + productId +
                 ", dateCommande=" + dateCommande +
