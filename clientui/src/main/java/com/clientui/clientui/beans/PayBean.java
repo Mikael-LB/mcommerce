@@ -46,7 +46,7 @@ public class PayBean {
 
     @Override
     public String toString() {
-        return "Paiement{" +
+        return "PaiementBean{" +
                 "id=" + id +
                 ", idCommande=" + idCommande +
                 ", montant=" + montant +
